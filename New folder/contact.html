@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact/Gupta'k Instituted</title>
+	<link rel="stylesheet" href="Contact.css">
+</head>
+<body> 
+	<div class=header>
+	<h4>Contact Us</h4>
+</div><br>
+	<div class="par">
+	<p>Need to get in touch with us?Either fill out the form<br>
+		with your inquiry or find the <span> department email</span> you'd <br>
+	like to contact below.</p>
+</div>
+	<div class="container">
+		<form onsubmit="sendEmail(); reset(); return false;">
+			<h3>Get In Touch</h3>
+			<input typr="text" id="name" placeholder="Your Full name" required>
+			<input typr="Email" id="Email" placeholder="Email Id" required>
+			<input typr="text" id="phone" placeholder="Phone no." required>
+			<h2>Message Here</h2>
+			<textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+			 <button type="submit">send</button>
+		</form>
+	</div>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		function sendEmail(){
+			Email.send({
+    Host : " guptabikas9326@gmail.com",
+    Username : "b.kgupta83560@gmail.com",
+    Password : "B.kgupta83@#",
+    To : 'b.kgupta83560@gmail.com',
+    From : document. getElementById("Email").value,
+    Subject : "New contact form enquiry",
+    Body : "Name:" + document.getElementById("name").value
+          +"<br> Email: " + document.getElementById("Email").value
+          +"<br> Phone no: " + document.getElementById("phone").value
+          +"<br> message: " + document.getElementById("message").value
+}).then(
+  message => alert(message send succesfully)
+);
+		}
+	</script>
+</body>
+</html>
+
+ 
+
+
+
+
+
+
+
+

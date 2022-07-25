@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: url(cup.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	font-family: sans serif;
+}
+.logo{
+	font-size: 18px;
+	background-color: #0bf7fc;
+
+	padding: 1px;
+	margin-top: -20px;
+	margin-left: -5px;
+}
+.logo span1{
+	font-size: 85px;
+	color: #ff7200;
+}
+.logo span2{
+	font-size: 85px;
+	color: #ff7200;
+}
+.menu-bar{
+	background: #0bf7fc;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+    	list-style: none;
+    	color: #000;
+}
+.menu-bar ul li{
+	width: 140px;
+	margin: 5px;
+	padding: 5px;
+	font-weight: bold;
+	font-size: 25px;
+
+	margin-top: -25px;
+	
+}
+.menu-bar ul li a:hover{
+	color: #ff7200;
+}
+.contact h2{
+	font-size: 40px;
+	margin-top: 35px;
+	margin-left: 45px;
+	font-weight: bold;
+}
+.par{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 85px;
+}
+.par span4{
+	margin-left: 50px;
+}
+.par span5{
+	margin-left: 160px;
+}
+.par span6{
+	margin-left: 200px;
+}
+.form{
+	width: 500px;
+	height: 450px;
+	background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+	position: absolute;
+	top: 160px;
+	left: 800px;
+	border-radius: 20px;
+	padding: 10px;
+}
+.form h5{
+	width: 470px;
+	height: 45px;
+	font-size: 33px;
+	margin-top: -5px;
+	font-family: sans serif;
+	text-align: center;
+	background:transparent;
+	color: #000;
+	padding: 1px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.form h6{
+	font-size: 17px;
+	margin-left: 5px;
+	margin-top: 5px;
+	background: transparent;
+	font-weight: bold;
+}
+.form input{
+	width: 450px;
+	height: 70px;
+	background: transparent;
+	margin-left: 13px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+::placeholder{
+	color: #000;
+	font-weight: bold;
+}
+ .btn{
+	width: 100px;
+	height: 60px;
+	border-radius: 10px;
+	font-size: 25px;
+	margin-left: 180px;
+	margin-top: 15px;
+	cursor: pointer;
+	color: #000;
+
+}
+.btn:focus{
+	outline: none;
+}
+.btn:hover{
+	background: #0bf7fc;
+	color: #000;
+}
+.btn a{
+		text-decoration: none;
+}

@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins,sans-serif;
+
+}
+.header{
+	font-size: 35px;
+	margin-top: 300px;
+	margin-left: 195px;
+}
+.par{
+	font-size: 18px;
+	margin-left: 198px;
+}
+.par span{
+	color: #3a08f5;
+}
+
+
+.container{
+		width: 100%;
+	height: 100vh;
+	display: flex;
+	text-align: center;
+	justify-content: center;  
+}
+
+
+	
+.container form{
+	width: 600px;
+	height: 545px;
+	position: absolute;
+	top: 60px;
+    left: 700px;
+    border-radius: 10px;
+    padding: 25px;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(background.jpg);
+
+}
+.container form h3{
+		width: 560px;
+ 	font-family: sans serif;
+ 	text-align: center;
+ 	color:#000 ;
+ 	background: #0bf7fc;
+ 	font-size: 28px;
+ 	padding: 15px;
+ 	margin: 15px;
+ 	border-radius: 20px;
+ 	margin-left: -6px;
+ 	margin-top: -14px;
+
+}
+.container input{
+	width: 550px;
+	height: 60px;
+	font-size: 18px;
+	font-family: sans serif;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	background: transparent;
+	font-weight: bold;
+	margin-top: 25px;
+}
+::placeholder{
+	color: #000;
+}
+.container form textarea{
+	width: 350px;
+	height: 150px;
+	float:left;
+	left: 15px;
+	margin-top: 8px;
+	border-radius: 5px;
+	margin-left: -15px;
+}
+.container form textarea::placeholder{
+	color: #989892;
+	background: url(cup.jpg);
+	width: 100%;
+	height: 20vh;
+	font-family: arial;
+	font-size:30px;
+	
+}
+.container form h2{
+		width: 125px;
+ 	font-family: sans serif;
+ 	text-align: center;
+ 	color:#000 ;
+ 	background: #0bf7fc;
+ 	font-size: 18px;
+ 	padding: 3px;
+ 	margin: 1px;
+ 	border-radius: 20px;
+ 	margin-left: 80px;
+     margin-top: 5px;
+
+     
+}
+.container form button{
+	color: #000;
+	width: 125px;
+	height: 75px;
+	font-size: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 75px;
+	margin-left: -78px;
+}
+.container form button:hover{
+             background: #0bf7fc;
+             color: #ff7200;
+}
+ 
+	
+
+

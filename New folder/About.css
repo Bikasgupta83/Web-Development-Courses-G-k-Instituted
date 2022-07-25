@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: url(.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+	font-family: sans serif;
+}
+.menu-bar{
+	background: #0bf7fc;
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+    	list-style: none;
+    	color: #000;
+}
+.menu-bar ul li{
+	width: 140px;
+	margin: 15px;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top: -40px;
+	
+}
+.menu-bar ul li a:hover{
+	color: #ff7200;
+}
+
+.sub-menu{
+	display: none;
+}
+.sub-menu a{
+	text-decoration: none;
+}
+.logo{
+	font-size: 18px;
+	background-color: #0bf7fc;
+
+	padding: 1px;
+	margin-top: -20px;
+	margin-left: -5px;
+}
+.logo span1{
+	font-size: 85px;
+	color: #ff7200;
+}
+.logo span2{
+	font-size: 85px;
+	color: #ff7200;
+}
+.menu-bar ul li:hover .sub-menu{
+	display: block;
+	position: absolute;
+	background: #0bf7fc;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu ul li{
+	width: 150px;
+	padding: 10px;
+	border-radius: 0;
+	
+}
+.menu-bar ul li:hover .sub-menu ul li a:hover{
+	text-decoration: none;
+	color: #ff7200;
+}
+.contact h1{
+	font-size: 22px;
+	margin-left: 180px;
+	margin-top: 45px;
+	font-weight: bold;
+}
+.contact span3{
+	margin-left: 5px;
+}
+.contact span4{
+	margin-left: 55px;
+}
+.par{
+	margin-left: 200px;
+	margin-top: 25px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.par span5{
+	margin-left: 35px;
+}
+.par span6{
+	margin-left: 60px;
+}
+.img{
+	margin-left: -135px;
+	margin-top: 50px;
+}
+.header1{
+	margin-left: 450px;
+	margin-top: -340px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: arial;
+}
+.header1 h8{
+	font-size: 18px;
+}
+.header2{
+	margin-top: 80px;
+	margin-left: -150px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: arial;
+}
+.header2 h10{
+      font-size: 18px;	
+}
+.img1{
+	margin-left: 440px;
+	margin-top: -300px;
+}
+.header3{
+	margin-left: -70px;
+	margin-top: 35px;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: sans serif;
+}
+.header3 span9{
+	margin-left: 290px;
+}
+.header3 h12{
+	margin-left: 5px;
+	font-size: 20px;
+}
+.header3 span8{
+	margin-left: 155px;
+}
+.par5{
+	font-size: 45px;
+	font-weight: bold;
+	margin-left: 320px;
+	margin-top: 15px;
+}
